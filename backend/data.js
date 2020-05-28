@@ -1,36 +1,36 @@
 const education = [
     {
-        yearFrom: 2005,
-        yearTo: 2007,
-        place: 'University 1',
+        yearFrom: 2011,
+        yearTo: 2014,
+        place: 'Høgskolen i Gjøvik',
         comment: 'Studying'
     },
     {
-        yearFrom: 2001,
-        yearTo: 2004,
-        place: 'Barista academy',
-        comment: 'Made coffee'
+        yearFrom: 2014,
+        yearTo: 2016,
+        place: 'NTNU',
+        comment: 'Studying'
     }
 ]
 
 const work = [
     {
-        yearFrom: 2010,
-        yearTo: 2018,
-        place: 'BBC Radio',
-        comment: 'Was doing stuff'
+        yearFrom: 2016,
+        yearTo: 2020,
+        place: 'Semway Norge AS',
+        comment: 'Front end developer & Tech lead'
     },
     {
-        yearFrom: 2009,
-        yearTo: 2010,
-        place: 'The coffee shop',
-        comment: 'Making coffee'
+        yearFrom: 2020,
+        yearTo: 9999,
+        place: 'NRK',
+        comment: 'Front end developer'
     }
 ]
 
 const me = {
-    name: 'Arthur Dent',
-    location: 'Earth'
+    name: 'Ole Fjærestad',
+    location: 'Here'
 }
 
 module.exports = { me, work, education };
